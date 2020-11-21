@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paper {
+  width: 100%;
+  margin: 16px 0 !important;
+}
+
+.infected {
+  background-color: #fff;
+}
+
+.deaths {
+  background-color: #fff3f3;
+}
+
+.recovered {
+  background-color: #e9fdf2;
+}
+
+.active {
+  background-color: #f9f4ec;
+}
+
+@media only screen and (min-width: 768px) {
+  .paper {
+    width: 48%;
+  }
+}

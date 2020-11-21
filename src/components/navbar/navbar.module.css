@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 32px;
+}
+
+.title {
+  font-size: 24px;
+}
