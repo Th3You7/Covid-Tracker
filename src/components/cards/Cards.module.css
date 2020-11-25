@@ -3,9 +3,21 @@
   justify-content: space-between;
 }
 
+.dailyNumContainer {
+  width: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 4px;
+}
+
 .paper {
   width: 100%;
   margin: 16px 0 !important;
+}
+
+.divider {
+  margin: 16px 0;
 }
 
 .infected {
